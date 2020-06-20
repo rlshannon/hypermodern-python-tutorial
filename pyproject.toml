@@ -15,6 +15,7 @@ version     = "0.1.0"
         requests = "^2.24.0"
 
         [tool.poetry.dev-dependencies]
+        pytest = "^5.4.3"
 
         [tool.poetry.scripts]
         hypermodern-python-tutorial = "hypermodern_python_tutorial.console:main"
