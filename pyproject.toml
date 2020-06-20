@@ -1,0 +1,19 @@
+[tool.poetry]
+authors     = [ "Your Name <you@example.com>" ]
+description = "Following a tutorial"
+homepage    = "https://github.com/rlshannon/hypermodern-python-tutorial"
+keywords    = [ "hypermodern" ]
+license     = "MIT"
+name        = "hypermodern-python-tutorial"
+readme      = "README.md"
+repository  = "https://github.com/rlshannon/hypermodern-python-tutorial"
+version     = "0.1.0"
+
+        [tool.poetry.dependencies]
+        python = "^3.7"
+
+        [tool.poetry.dev-dependencies]
+
+[build-system]
+build-backend = "poetry.masonry.api"
+requires      = [ "poetry>=0.12" ]
