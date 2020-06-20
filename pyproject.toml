@@ -10,10 +10,14 @@ repository  = "https://github.com/rlshannon/hypermodern-python-tutorial"
 version     = "0.1.0"
 
         [tool.poetry.dependencies]
+        click  = "^7.1.2"
         python = "^3.7"
-        click = "^7.1.2"
+        requests = "^2.24.0"
 
         [tool.poetry.dev-dependencies]
+
+        [tool.poetry.scripts]
+        hypermodern-python-tutorial = "hypermodern_python_tutorial.console:main"
 
 [build-system]
 build-backend = "poetry.masonry.api"
